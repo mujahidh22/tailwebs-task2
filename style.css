@@ -35,21 +35,11 @@ h6 {
   color: var(--primary-blue);
 }
 
-.text-secondary-blue {
-  color: var(--secondary-blue);
-}
-
 .bg-primary-blue {
   background-color: var(--primary-blue);
 }
 
-.bg-teal {
-  background-color: var(--teal-btn);
-}
 
-.text-teal {
-  color: var(--teal-btn);
-}
 
 .btn-teal {
   background-color: var(--teal-btn);
@@ -322,24 +312,6 @@ h6 {
   font-size: 16px;
 }
 
-.testimonial-card {
-  background: white;
-  border: 1px solid #eee;
-  border-radius: 10px;
-  padding: 1.5rem;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  position: relative;
-}
-
-.testimonial-img {
-  width: 100px;
-  height: 100px;
-  border-radius: 10px;
-  object-fit: cover;
-}
 
 
 /* DIGIT Section */
