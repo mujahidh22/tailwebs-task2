@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1200px !important;
 }
 
 h1,
@@ -316,9 +316,7 @@ h6 {
 
 /* DIGIT Section */
 
-.digit-container {
-  max-width: 1200px;
-}
+
 
 .digit-content {
   padding: 5rem 0;
@@ -365,9 +363,7 @@ h6 {
   align-items: center;
 }
 
-.latest-container {
-  max-width: 1200px;
-}
+
 
 .latest-title {
   color: var(--charcoal);
@@ -459,9 +455,9 @@ h6 {
 }
 
 .supporters-container {
-  max-width: 1200px;
   width: 100%;
-  padding: 4rem 0;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .supporters-container h3 {
@@ -500,8 +496,8 @@ footer {
 }
 
 .footer-container {
-  max-width: 1200px;
-  padding: 4rem 0;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .footer-logo {
@@ -589,7 +585,6 @@ footer {
 
 .footer-bottom {
   background-color: #2173c0;
-  /* Blue bottom bar */
   color: white;
   padding: 1.5rem 0;
   margin-top: 3rem;
@@ -604,4 +599,70 @@ footer {
 
 .footer-bottom a:hover {
   text-decoration: underline;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 991.98px) {
+  .hero-section {
+    padding: 4rem 0;
+    min-height: auto;
+    background-size: cover;
+    background-position: center;
+  }
+  .hero-title {
+    font-size: 32px;
+  }
+  .hero-title strong {
+    font-size: 45px;
+  }
+  .stats-container {
+    gap: 3rem;
+  }
+  .stat-main-number {
+    font-size: 3rem;
+  }
+  .stat-sub-number {
+    font-size: 2rem;
+  }
+  .bold-approaches-section {
+    height: auto;
+    padding: 3rem 0;
+  }
+  .bold-approaches {
+    position: relative;
+    top: 0;
+    min-width: 100%;
+    width: 100%;
+    padding: 1.5rem;
+    box-shadow: none;
+  }
+  .cards-grid {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  .sustaining-title, .digit-title, .latest-title {
+    font-size: 28px;
+  }
+  .sustaining-title strong, .digit-title strong, .latest-title strong {
+    font-size: 36px;
+  }
+  .digit-section {
+    padding: 3rem 0;
+  }
+  .digit-img {
+    position: relative;
+    top: 0;
+    margin-top: 2rem;
+  }
+  .footer-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .filter-tags {
+    gap: 0.5rem !important;
+  }
+  .filter-tags .btn {
+    font-size: 14px;
+    padding: 0.3rem 0.8rem;
+  }
 }
