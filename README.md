@@ -1,16 +1,32 @@
-# React + Vite
+# Tailweb Task 2 - eGov Foundation Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page built with React, Vite, and Tailwind CSS, replicating the eGov Foundation website's design with enhanced mobile responsiveness and optimized asset management.
 
-Currently, two official plugins are available:
+## 🚀 Deployed Link
+**Live Demo:** [https://tailweb-2.netlify.app/](https://tailweb-2.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- **Framework:** React
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **Icons:** Font Awesome
 
-## React Compiler
+## ✨ Key Features
+- **Responsive Design:** Fully optimized for Desktop, Tablet, and Mobile views.
+- **Mobile-Specific Fixes:** 
+  - Adjusted heights to prevent overlapping sections on small screens.
+  - Added proper horizontal padding for text readability.
+  - Scaled down font sizes and buttons for a better mobile UX.
+- **Component-Based Architecture:** Modular sections including Hero, Stats, Bold Approaches (with interactive tabs), Digit Platform, and Products.
+- **Asset Optimization:** Managed images within `src/assets/images` for optimized bundling and reference.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📦 Project Structure
+- `src/components/`: Reusable UI sections.
+- `src/assets/images/`: Project image assets.
+- `src/data/`: Mock data for products and navigation.
+- `src/index.css`: Tailwind directives and custom global styles.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Local Setup
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm run dev` to start the development server
