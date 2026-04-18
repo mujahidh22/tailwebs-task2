@@ -1,3 +1,5 @@
+import egovLogo from '../assets/images/eGov-Foundation.png'
+
 export default function Footer() {
   return (
     <footer className="bg-[#E6F3FB] flex flex-col justify-center items-center w-full">
@@ -5,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div>
-            <img src="/images/eGov-Foundation.png" alt="eGov" loading="lazy" className="max-w-[120px] mb-4" />
+            <img src={egovLogo} alt="eGov" loading="lazy" className="max-w-[120px] mb-4" />
             <p className="text-[#283B7B] text-sm leading-relaxed">
               Catalysing digital transformation in public service delivery at speed &amp; scale.
             </p>

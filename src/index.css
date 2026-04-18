@@ -18,11 +18,11 @@ body {
 
 /* Custom utilities that might be too complex for inline classes */
 .hero-section {
-  background: url('/images/heroImage.png') right/80% no-repeat;
+  background: url('./assets/images/heroImage.png') right/80% no-repeat;
 }
 
 .stats-section {
-  background: linear-gradient(rgba(40, 40, 40, 0.5), rgba(40, 40, 40, 0.5)), url('/images/home-2sec.jpeg') center center/cover no-repeat;
+  background: linear-gradient(rgba(40, 40, 40, 0.5), rgba(40, 40, 40, 0.5)), url('./assets/images/home-2sec.jpeg') center center/cover no-repeat;
 }
 
 @media (max-width: 991.98px) {

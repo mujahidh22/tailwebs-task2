@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import icuImg from '../assets/images/ICU-Equipment.G16.2k-1-3.png'
+import covidImg from '../assets/images/covid-vaccine-1.png'
 
 const tabs = [
   {
@@ -8,14 +10,14 @@ const tabs = [
       {
         stat: '210+',
         desc: 'cities LIVE with\n10BedICU across\nIndia',
-        img: '/images/ICU-Equipment.G16.2k-1-3.png',
+        img: icuImg,
         bg: 'bg-[#55b6c7]',
         alt: 'Medical bed',
       },
       {
         stat: '2 Bn',
         desc: 'COVID-19\nvaccination\ncertificates issued',
-        img: '/images/covid-vaccine-1.png',
+        img: covidImg,
         bg: 'bg-[#3198f5]',
         alt: 'Certificate',
       },
@@ -28,14 +30,14 @@ const tabs = [
       {
         stat: '500+',
         desc: 'cities using\ndigital finance\nsolutions',
-        img: '/images/ICU-Equipment.G16.2k-1-3.png',
+        img: icuImg,
         bg: 'bg-[#55b6c7]',
         alt: 'Finance',
       },
       {
         stat: '₹2 Tn',
         desc: 'transactions\nprocessed\ndigitally',
-        img: '/images/covid-vaccine-1.png',
+        img: covidImg,
         bg: 'bg-[#3198f5]',
         alt: 'Transactions',
       },
@@ -48,14 +50,14 @@ const tabs = [
       {
         stat: '300+',
         desc: 'Urban Local\nBodies using\nDIGIT',
-        img: '/images/ICU-Equipment.G16.2k-1-3.png',
+        img: icuImg,
         bg: 'bg-[#55b6c7]',
         alt: 'Governance',
       },
       {
         stat: '10M+',
         desc: 'Citizen\nservices\nenabled',
-        img: '/images/covid-vaccine-1.png',
+        img: covidImg,
         bg: 'bg-[#3198f5]',
         alt: 'Citizens',
       },
@@ -68,14 +70,14 @@ const tabs = [
       {
         stat: '150+',
         desc: 'cities with\ndigital water\nmanagement',
-        img: '/images/ICU-Equipment.G16.2k-1-3.png',
+        img: icuImg,
         bg: 'bg-[#55b6c7]',
         alt: 'Water',
       },
       {
         stat: '5M+',
         desc: 'households\nwith clean\nwater access',
-        img: '/images/covid-vaccine-1.png',
+        img: covidImg,
         bg: 'bg-[#3198f5]',
         alt: 'Households',
       },

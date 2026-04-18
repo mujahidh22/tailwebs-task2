@@ -1,3 +1,6 @@
+import digitLogo from '../assets/images/digit-n.png'
+import digitImage from '../assets/images/DIGIT-Image-Only.png'
+
 export default function DigitPlatform() {
   return (
     <section className="bg-[#0E165D] text-white flex justify-center items-center relative p-0">
@@ -7,7 +10,7 @@ export default function DigitPlatform() {
           <div className="lg:w-1/2 px-4 lg:px-0">
             <div className="py-20">
               <img
-                src="/images/digit-n.png"
+                src={digitLogo}
                 alt="DIGIT by eGov"
                 loading="lazy"
                 className="max-w-[150px] mb-6"
@@ -33,7 +36,7 @@ export default function DigitPlatform() {
           {/* Right Image */}
           <div className="absolute top-[-70px] lg:w-1/2 relative flex items-center justify-center min-h-[400px] overflow-hidden">
             <img
-              src="/images/DIGIT-Image-Only.png"
+              src={digitImage}
               alt="Platform usage"
               loading="lazy"
             />

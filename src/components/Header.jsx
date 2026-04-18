@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import egovLogo from '../assets/images/eGov-Foundation.png'
 
 const NavBarData = [
   {
@@ -48,7 +49,7 @@ export default function Header() {
         <div className="max-w-[1200px] mx-auto px-4 flex items-center justify-between">
           {/* Logo */}
           <a href="#">
-            <img src="/images/eGov-Foundation.png" alt="eGov Foundation" className="h-11" loading="lazy" />
+            <img src={egovLogo} alt="eGov Foundation" className="h-11" loading="lazy" />
           </a>
 
           {/* Desktop Nav */}

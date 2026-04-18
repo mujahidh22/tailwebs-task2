@@ -1,9 +1,11 @@
+import home2sec from '../assets/images/home-2sec.jpeg'
+
 export default function Stats() {
   return (
     <section
       className="stats-section relative min-h-screen flex justify-center py-15"
       style={{
-        background: "linear-gradient(rgba(40,40,40,0.5), rgba(40,40,40,0.5)), url('/images/home-2sec.jpeg') center center/cover no-repeat"
+        background: `linear-gradient(rgba(40,40,40,0.5), rgba(40,40,40,0.5)), url('${home2sec}') center center/cover no-repeat`
       }}
     >
       <div className="max-w-[1200px] w-full flex flex-col justify-between items-center gap-64 px-4">

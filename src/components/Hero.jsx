@@ -1,8 +1,10 @@
+import heroImage from '../assets/images/heroImage.png'
+
 export default function Hero() {
   return (
     <section
       className="hero-section relative min-h-[80vh] flex items-center py-24 overflow-hidden"
-      style={{ background: "url('/images/heroImage.png') right/80% no-repeat" }}
+      style={{ background: `url('${heroImage}') right/80% no-repeat` }}
     >
       <div className="max-w-[1200px] mx-auto px-4 relative z-10 w-full">
         <div className="max-w-xl">

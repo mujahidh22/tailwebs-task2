@@ -1,3 +1,6 @@
+import thumb1 from '../assets/images/thumb-1.jpg'
+import thumb2 from '../assets/images/thumb-2.png'
+
 export default function SustainingChange() {
   return (
     <section className="bg-[#fdfdfd] py-20">
@@ -22,8 +25,8 @@ export default function SustainingChange() {
         </p>
 
         <div className="grid grid-cols-2 gap-4">
-          <img src="/images/thumb-1.jpg" alt="Profile" loading="lazy" className="w-full rounded object-cover h-full" />
-          <img src="/images/thumb-2.png" alt="Profile" loading="lazy" className="w-full rounded object-cover h-full" />
+          <img src={thumb1} alt="Profile" loading="lazy" className="w-full rounded object-cover h-full" />
+          <img src={thumb2} alt="Profile" loading="lazy" className="w-full rounded object-cover h-full" />
         </div>
 
         <div className="text-center mt-10">
