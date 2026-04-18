@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-blue: #0E165D;
+  --color-secondary-blue: #1577BD;
+  --color-teal-btn: #4BB5C3;
+  --color-charcoal: #333333;
+  --color-light-blue-bg: #eaf1fb;
+  --color-footer-bg: #E6F3FB;
+  --font-sans: 'DM Sans', sans-serif;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: var(--color-charcoal);
+  overflow-x: hidden;
+}
+
+/* Custom utilities that might be too complex for inline classes */
+.hero-section {
+  background: url('/images/heroImage.png') right/80% no-repeat;
+}
+
+.stats-section {
+  background: linear-gradient(rgba(40, 40, 40, 0.5), rgba(40, 40, 40, 0.5)), url('/images/home-2sec.jpeg') center center/cover no-repeat;
+}
+
+@media (max-width: 991.98px) {
+  .hero-section {
+    background-size: cover;
+    background-position: center;
+  }
+}
